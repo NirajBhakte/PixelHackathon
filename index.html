@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWBIE CODER's</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Element 1: Loader Page -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-percentage">
+                <span id="counter">0</span>-100
+            </div>
+            <div class="loader-text-container">
+                <h1 class="loader-text-line">YOUR WEB EXPERIENCE IS LOADING RIGHT NOW</h1>
+                <h1 class="loader-text-line">YOUR WEB EXPERIENCE IS LOADING RIGHT NOW</h1>
+            </div>
+        </div>
+        <div class="loader-status-bar-container">
+            <div id="loader-status-bar"></div>
+        </div>
+    </div>
+
+    <!-- Element 5: Page Transition Overlay -->
+    <div class="page-transition"></div>
+
+    <!-- Main Website Content -->
+    <div id="main-content">
+
+        <!-- Element 4: Navbar -->
+        <header class="main-header">
+            <div class="logo-container">
+                <a href="#" class="logo">NEWBIE CODER's</a>
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+        
+        <!-- Navbar menu content -->
+        <nav class="nav-menu">
+            <a href="#hero">HOME</a>
+            <a href="#marquee">OUR WORKS</a>
+            <a href="#grid">CASE STUDIES</a>
+            <a href="#team">TEAM</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+        <!-- Home Page Hero Section with single image and text -->
+        <section class="hero-section" id="hero">
+            <div class="hero-content">
+                <h1 class="hero-text">DIGITAL AGENCY</h1>
+            </div>
+        </section>
+
+        <!-- Element 6: Infinite Marquee -->
+        <section class="marquee-section" id="marquee">
+            <h2>Our Services</h2>
+            <div class="marquee-container">
+                <div class="marquee-row">
+                    <div class="marquee-item">
+                        <img src="images/design-pattern-a.jpg" alt="Web Development">
+                        <p>Web Development</p>
+                    </div>
+                    <div class="marquee-item">
+                        <img src="images/design-pattern-b.jpg" alt="UI/UX Design">
+                        <p>UI/UX Design</p>
+                    </div>
+                    <div class="marquee-item">
+                        <img src="images/design-pattern-c.jpg" alt="Branding">
+                        <p>Branding</p>
+                    </div>
+                    <div class="marquee-item">
+                        <img src="images/design-pattern-d.jpg" alt="SEO Strategy">
+                        <p>SEO Strategy</p>
+                    </div>
+                    <div class="marquee-item">
+                        <img src="images/design-pattern-e.jpg" alt="Content Creation">
+                        <p>Content Creation</p>
+                    </div>
+                    <!-- Duplicate items for seamless loop -->
+                    <div class="marquee-item">
+                        <img src="images/design-pattern-a.jpg" alt="Web Development">
+                        <p>Web Development</p>
+                    </div>
+                    <div class="marquee-item">
+                        <img src="images/design-pattern-b.jpg" alt="UI/UX Design">
+                        <p>UI/UX Design</p>
+                    </div>
+                    <div class="marquee-item">
+                        <img src="images/design-pattern-c.jpg" alt="Branding">
+                        <p>Branding</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Elements 2 & 3: Image Grid with Hover -->
+        <section class="image-grid-section" id="grid">
+            <h2>Our Works</h2>
+            <div class="image-grid-video">
+                <div class="grid-item-video">
+                    <img src="images/portfolio-grid-1.jpg" alt="Case Study 1">
+                </div>
+                <div class="grid-item-video">
+                    <img src="images/portfolio-grid-2.jpg" alt="Case Study 2">
+                </div>
+                <div class="grid-item-video">
+                    <img src="images/portfolio-grid-3.jpg" alt="Case Study 3">
+                </div>
+                <div class="grid-item-video">
+                    <img src="images/portfolio-grid-4.jpg" alt="Case Study 4">
+                </div>
+                <div class="grid-item-video">
+                    <img src="images/portfolio-grid-5.jpg" alt="Case Study 5">
+                </div>
+                <div class="grid-item-video">
+                    <img src="images/portfolio-grid-6.jpg" alt="Case Study 6">
+                </div>
+            </div>
+        </section>
+
+        <!-- Element 7: Team Section -->
+        <section class="team-section" id="team">
+            <h2>Our Team</h2>
+            <div class="team-list-container">
+                <div class="team-member-video">
+                    <p class="member-id">01</p>
+                    <p class="member-name">Soumya Dhole</p>
+                    <div class="member-overlay"></div>
+                    <img src="images/Soumya.jpg.jpeg" alt="Soumya Dhole" class="member-photo-video">
+                </div>
+                <div class="team-member-video">
+                    <p class="member-id">02</p>
+                    <p class="member-name">Niraj Bhakte</p>
+                    <div class="member-overlay"></div>
+                    <img src="images/Niraj.jpg.jpeg" alt="Niraj Bhakte" class="member-photo-video">
+                </div>
+            </div>
+        </section>
+
+        <!-- Slogan Section with Contact Button -->
+        <section class="slogan-section" id="contact">
+            <h2 class="slogan-text">DESIGNING THE FUTURE OF DIGITAL EXPERIENCES.</h2>
+            <p class="slogan-subtext">Contact us to transform your ideas into reality.</p>
+            <a href="#contact" class="contact-button">CONTACT US</a>
+        </section>
+
+        <!-- Custom cursor and trail elements -->
+        <div class="custom-cursor"></div>
+        <div class="cursor-trail"></div>
+
+        <footer>
+            <p>&copy; 2025 NEWBIE CODER's Portfolio</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
